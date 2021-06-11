@@ -1,0 +1,63 @@
+html {
+  background-color: #236e96;
+  font-size: 16px;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+}
+
+#logo{
+  padding: 10px 10px;
+  height: 50px;
+}
+.background {
+  repeat: no-repeat;
+  max-width: 100%;
+  height: 600px;
+  padding-left: 200px;
+  padding-bottom: 50px;;
+  display: flexbox;
+}
+/* text inside the background image: */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    width: 1200px;
+  }
+
+.navigate {
+    display: flexbox;
+    float: inline-end;
+    font-size: 1.25rem; 
+    margin-top: 20px;
+    justify-content: space-around;
+
+}
+
+a {
+    color: whitesmoke;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0b415e;
+}
+
+/* Featured Tea: */
+
+.featuredTea{
+    font-display: center;
+    padding-top: 50px;
+}
+
+#berryTea {
+    height: 200px;
+    width: 300px;
+}
